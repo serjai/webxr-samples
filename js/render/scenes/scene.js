@@ -189,7 +189,7 @@ export class Scene extends Node {
     if (enable) {
       this._stats = new StatsViewer();
       this._stats.selectable = true;
-      this.addNode(this._stats);
+      //this.addNode(this._stats);
 
       if (this._statsStanding) {
         this._stats.translation = [0, 1.4, -0.75];
